@@ -1,0 +1,11 @@
+BusinessUnit:
+  ID_Object: bi.BusinessUnit
+  ID_Parent: '{{__dir}__masterData}__product'
+  Position: 1
+  Title_en: Бизнес-юнит
+  Title_ru: Бизнес-юнит
+SKUAdditionalInfo:
+  ID_Object: md_bi.SKUAdditionalInfo
+  ID_Parent: '{{{__dir}__masterData}__product}__sku'
+  Title_en: Доп. информация
+  Title_ru: Доп. информация

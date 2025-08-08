@@ -1,0 +1,78 @@
+DWH__bi.BusinessUnit:
+  ID_ObjectType: USER_TABLE
+  ObjectFields:
+    Code:
+      FlagNullable: False
+      Size: 63
+      Type: varchar
+    ID:
+      FlagNullable: False
+      Type: int
+    MDT_DateCreate:
+      FlagNullable: False
+      Type: datetime
+    MDT_DateDeleted:
+      Type: datetime
+    MDT_FlagActive:
+      Type: bit
+    MDT_ID_PrincipalCreatedBy:
+      FlagNullable: False
+      Type: int
+    Name:
+      FlagNullable: False
+      Size: 255
+      Type: varchar
+DWH__md_bi.SKUAdditionalInfo:
+  ID_ObjectType: USER_TABLE
+  ObjectFields:
+    ID:
+      FlagNullable: False
+      Type: int
+    ID_bi_BusinessUnit:
+      FlagNullable: False
+      Type: int
+    MDT_DateCreate:
+      FlagNullable: False
+      Type: datetime
+    MDT_DateDeleted:
+      Type: datetime
+    MDT_FlagActive:
+      Type: bit
+    MDT_ID_PrincipalCreatedBy:
+      FlagNullable: False
+      Type: int
+MDT__bi.BusinessUnit:
+  ID_ObjectType: USER_TABLE
+  ObjectFields:
+    Code:
+      FlagNullable: False
+      Size: 63
+      Type: varchar
+    ID:
+      FlagNullable: False
+      Type: int
+    MDT_DateCreate:
+      FlagNullable: False
+      Type: datetime
+    MDT_ID_PrincipalCreatedBy:
+      FlagNullable: False
+      Type: int
+    Name:
+      FlagNullable: False
+      Size: 255
+      Type: varchar
+MDT__md_bi.SKUAdditionalInfo:
+  ID_ObjectType: USER_TABLE
+  ObjectFields:
+    ID:
+      FlagNullable: False
+      Type: int
+    ID_bi_BusinessUnit:
+      FlagNullable: False
+      Type: int
+    MDT_DateCreate:
+      FlagNullable: False
+      Type: datetime
+    MDT_ID_PrincipalCreatedBy:
+      FlagNullable: False
+      Type: int
