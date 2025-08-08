@@ -1,0 +1,10 @@
+Import bi.BusinessUnit from MDT to DWH:
+  ID_TaskType: Import Data From MDT to DWH
+  Params:
+    ID_ObjectSource: MDT__bi.BusinessUnit
+    ID_ObjectTarget: DWH__bi.BusinessUnit
+Import md_bi.SKUAdditionalInfo from MDT to DWH:
+  ID_TaskType: Import Data From MDT to DWH
+  Params:
+    ID_ObjectSource: MDT__md_bi.SKUAdditionalInfo
+    ID_ObjectTarget: DWH__md_bi.SKUAdditionalInfo

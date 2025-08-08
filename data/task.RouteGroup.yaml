@@ -1,0 +1,50 @@
+BI Routes:
+  Routes:
+    Import dwh-core from MDT to DWH:
+      ExecutionOrder: 10
+    Import dataquality-core from MDT to DWH:
+      ExecutionOrder: 20
+    Import dataquality-geocluster from MDT to DWH:
+      ExecutionOrder: 30
+    Import calendar from MDT to DWH:
+      ExecutionOrder: 40
+    SOP import to HA by blocks:
+      ExecutionOrder: 70
+    Fact Parallel Calculation:
+      ExecutionOrder: 110
+    SOP import to MDT SA:
+      ExecutionOrder: 110
+    SOP load from MDT SA:
+      ExecutionOrder: 120
+    Import dataquality-geo from MDT to DWH:
+      ExecutionOrder: 130
+    Import BI tables from MDT to DWH:
+      ExecutionOrder: 140
+    Import master-model from MDT to DWH:
+      ExecutionOrder: 140
+    Import op from MDT to DWH:
+      ExecutionOrder: 141
+    Import mdlp from MDT to DWH:
+      ExecutionOrder: 142
+    Datamart calculation:
+      ExecutionOrder: 144
+    Hierarchy calculation:
+      ExecutionOrder: 145
+    Import exchange-rate from MDT to DWH:
+      ExecutionOrder: 150
+    Import price-list from MDT to DWH:
+      ExecutionOrder: 160
+    Import uom from MDT to DWH:
+      ExecutionOrder: 170
+    Import employee from MDT to DWH:
+      ExecutionOrder: 180
+    Load fact data:
+      ExecutionOrder: 190
+    Process MDLP Tabular:
+      ExecutionOrder: 500
+    Process Sales Tabular:
+      ExecutionOrder: 505
+    Process Composite Tabular:
+      ExecutionOrder: 510
+    Recalculate objects checksum:
+      ExecutionOrder: 1000

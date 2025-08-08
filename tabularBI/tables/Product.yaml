@@ -1,0 +1,6 @@
+tables:
+  Product:
+    columns:
+      Business unit:
+        dataType: String
+        sourceColumn: BusinessUnitName

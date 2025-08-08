@@ -1,0 +1,294 @@
+[23:22:43 DBG] No required modules
+[23:22:43 DBG] Loading module from assembly Mdt.Core
+[23:22:44 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Datamart\Datamart.dll
+[23:22:45 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\DCore.Module\DCore.Module.dll
+[23:22:46 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\ExchangeRate\ExchangeRate.dll
+[23:22:46 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Audit\Mdt.Audit.dll
+[23:22:47 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Binding\Mdt.Binding.dll
+[23:22:49 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.DbLog\Mdt.DbLog.dll
+[23:22:49 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Dev\Mdt.Dev.dll
+[23:22:50 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Dm\Mdt.Dm.dll
+[23:22:51 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.DocGen\Mdt.DocGen.dll
+[23:22:52 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Elastic\Mdt.Elastic.dll
+[23:22:53 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Etl\Mdt.Etl.dll
+[23:22:54 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Export\Mdt.Export.dll
+[23:22:55 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Help\Mdt.Help.dll
+[23:22:55 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Import\Mdt.Import.dll
+[23:22:57 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Mapping\Mdt.Mapping.dll
+[23:22:57 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Oauth\Mdt.Oauth.dll
+[23:22:58 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Odata\Mdt.Odata.dll
+[23:22:59 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Part\Mdt.Part.dll
+[23:22:59 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Pbi\Mdt.Pbi.dll
+[23:23:00 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Sm\Mdt.Sm.dll
+[23:23:01 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.SqlFields\Mdt.SqlFields.dll
+[23:23:02 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Status\Mdt.Status.dll
+[23:23:03 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Tabular\Mdt.Tabular.dll
+[23:23:04 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Tag\Mdt.Tag.dll
+[23:23:04 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Tag.Export\Mdt.Tag.Export.dll
+[23:23:05 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Mdt.Workflow\Mdt.Workflow.dll
+[23:23:06 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\MdtModules.Binding.Import\MdtModules.Binding.Import.dll
+[23:23:07 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\Price-List\PriceList.dll
+[23:23:08 DBG] Loading assembly from file D:\ics\bi_Saparkin_Anton\modules\BI\DEMO\api\modules\SyncApi\SyncApi.dll
+[23:23:08 DBG] Loading module from assembly Datamart
+[23:24:12 DBG] Loading module from assembly DCore.Module
+[23:24:12 DBG] Loading module from assembly ExchangeRate
+[23:24:12 DBG] Loading module from assembly Mdt.Audit
+[23:24:12 DBG] Loading module from assembly Mdt.Binding
+[23:24:13 DBG] Loading module from assembly Mdt.DbLog
+[23:24:13 DBG] Loading module from assembly Mdt.Dev
+[23:24:13 DBG] Loading module from assembly Mdt.Dm
+[23:24:14 DBG] Loading module from assembly Mdt.DocGen
+[23:24:16 DBG] Loading module from assembly Mdt.Elastic
+[23:24:18 DBG] Loading module from assembly Mdt.Etl
+[23:24:19 DBG] Loading module from assembly Mdt.Export
+[23:24:20 DBG] Loading module from assembly Mdt.Help
+[23:24:20 DBG] Loading module from assembly Mdt.Import
+[23:24:20 DBG] Loading module from assembly Mdt.Mapping
+[23:24:20 DBG] Loading module from assembly Mdt.Oauth
+[23:24:20 DBG] Loading module from assembly Mdt.Odata
+[23:24:21 DBG] Loading module from assembly Mdt.Part
+[23:24:21 DBG] Loading module from assembly Mdt.Pbi
+[23:24:22 DBG] Loading module from assembly Mdt.Sm
+[23:24:22 DBG] Loading module from assembly Mdt.SqlFields
+[23:24:22 DBG] Loading module from assembly Mdt.Status
+[23:24:22 DBG] Loading module from assembly Mdt.Tabular
+[23:24:22 DBG] Loading module from assembly Mdt.Tag
+[23:24:22 DBG] Loading module from assembly Mdt.Tag.Export
+[23:24:22 DBG] Loading module from assembly Mdt.Workflow
+[23:24:23 DBG] Loading module from assembly MdtModules.Binding.Import
+[23:24:23 DBG] Loading module from assembly PriceList
+[23:24:23 DBG] Loading module from assembly SyncApi
+[23:24:23 DBG] Executing Startup of module Mdt.Core.Modules.System
+[23:24:23 DBG] Executing Startup of module Mdt.Storage
+[23:24:23 DBG] Executing Startup of module Mdt.Templates
+[23:24:23 DBG] Executing Startup of module Mdt.Job
+[23:24:23 DBG] Executing Startup of module Mdt.Password
+[23:24:23 DBG] Executing Startup of module Ics.MdtModules.Datamart
+[23:24:23 DBG] Executing Startup of module DCore.Module
+[23:24:34 DBG] Executing Startup of module Ics.MdtModules.ExchangeRate
+[23:24:34 DBG] Executing Startup of module Mdt.Audit
+[23:24:34 DBG] Executing Startup of module Mdt.Binding
+[23:24:34 DBG] Executing Startup of module Mdt.DbLog
+[23:24:34 DBG] Executing Startup of module Mdt.Dev
+[23:24:34 DBG] Executing Startup of module Mdt.Dev.E2e.E2e
+[23:24:34 DBG] Executing Startup of module Mdt.Dm
+[23:24:34 DBG] Executing Startup of module Mdt.DocGen
+[23:24:34 DBG] Executing Startup of module Mdt.Elastic
+[23:24:34 DBG] Executing Startup of module Mdt.Etl
+[23:24:34 DBG] Executing Startup of module Mdt.Export
+[23:24:34 DBG] Executing Startup of module Mdt.Help
+[23:24:34 DBG] Executing Startup of module Mdt.Import
+[23:24:34 DBG] Executing Startup of module Mdt.Mapping
+[23:24:34 DBG] Executing Startup of module Mdt.Oauth
+[23:24:34 DBG] Executing Startup of module Mdt.Part
+[23:24:34 DBG] Executing Startup of module Mdt.Pbi
+[23:24:34 DBG] Executing Startup of module Mdt.Status
+[23:24:34 DBG] Executing Startup of module Mdt.Tabular
+[23:24:34 DBG] Executing Startup of module Mdt.Tag.Export
+[23:24:34 DBG] Executing Startup of module Mdt.Workflow
+[23:24:34 DBG] Executing Startup of module MdtModules.Binding.Import
+[23:24:34 DBG] Executing Startup of module Ics.MdtModules.PriceList
+[23:24:34 DBG] Executing Startup of module Ics.MdtModules.SyncApi
+[23:24:47 FTL] Application startup error
+Microsoft.Data.SqlClient.SqlException (0x80131904): Не удается открыть базу данных "MDT_BI", запрашиваемую именем входа. Не удалось выполнить вход.
+При входе в систему пользователя "NT AUTHORITY\СИСТЕМА" произошла ошибка.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Ics.Database.DataManager.get_Connection()
+   at Ics.Database.DataManager.CreateCommand()
+   at Ics.Database.DataManager.get_Command()
+   at Ics.Database.DataManager.GetCommand(CommandType commandType, String commandText)
+   at Ics.Database.DataManager.PrepareCommand(CommandType type, String text, IDbDataParameter[] parameters)
+   at Ics.Database.DataManager.SetCommand(DbQuery query)
+   at DCore.Infrastructure.Logging.MessageTemplateRepository.GetTemplates() in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/MessageTemplateRepository.cs:line 31
+   at DCore.Infrastructure.Logging.Sinks.DCoreSqlSink`1..ctor(TSink sink, IOptions`1 dbOptions, Nullable`1 minimumLevel) in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/Sinks/DCoreSqlSink.cs:line 43
+   at DCore.Infrastructure.Logging.Sinks.DCoreMsSqlAuditSink..ctor(IOptions`1 sinkOptions, IOptions`1 dbOptions, IFormatProvider formatProvider, ITextFormatter logEventFormatter) in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/Sinks/DCoreMsSqlAuditSink.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Serilog.Extensions.Hosting.InjectedLoggerSettings.Configure(LoggerConfiguration loggerConfiguration)
+   at Serilog.Configuration.LoggerSettingsConfiguration.Settings(ILoggerSettings settings)
+   at Serilog.LoggerSettingsConfigurationExtensions.Services(LoggerSettingsConfiguration loggerSettingsConfiguration, IServiceProvider services)
+   at Mdt.WebApi.Program.<>c.<Main>b__2_1(HostBuilderContext hostingContext, IServiceProvider services, LoggerConfiguration loggerConfiguration) in /builds/3/mdt/api/_core/Mdt.WebApi/Program.cs:line 49
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_2.<UseSerilog>b__4(LoggerConfiguration cfg)
+   at Serilog.Extensions.Hosting.ReloadableLogger.Reload(Func`2 configure)
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_1.<UseSerilog>b__1(IServiceProvider services)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_1.<UseSerilog>b__3(IServiceProvider services)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.HostBuilder.<>c__DisplayClass36_0.<PopulateServiceCollection>b__2(IServiceProvider _)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Mdt.WebApi.Program.Main(String[] args) in /builds/3/mdt/api/_core/Mdt.WebApi/Program.cs:line 60
+ClientConnectionId:343bf769-95d2-4d58-aa31-d80e0cfcc9a1
+Error Number:4060,State:1,Class:11
+Unhandled exception. Microsoft.Data.SqlClient.SqlException (0x80131904): Не удается открыть базу данных "MDT_BI", запрашиваемую именем входа. Не удалось выполнить вход.
+При входе в систему пользователя "NT AUTHORITY\СИСТЕМА" произошла ошибка.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Ics.Database.DataManager.get_Connection()
+   at Ics.Database.DataManager.CreateCommand()
+   at Ics.Database.DataManager.get_Command()
+   at Ics.Database.DataManager.GetCommand(CommandType commandType, String commandText)
+   at Ics.Database.DataManager.PrepareCommand(CommandType type, String text, IDbDataParameter[] parameters)
+   at Ics.Database.DataManager.SetCommand(DbQuery query)
+   at DCore.Infrastructure.Logging.MessageTemplateRepository.GetTemplates() in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/MessageTemplateRepository.cs:line 31
+   at DCore.Infrastructure.Logging.Sinks.DCoreSqlSink`1..ctor(TSink sink, IOptions`1 dbOptions, Nullable`1 minimumLevel) in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/Sinks/DCoreSqlSink.cs:line 43
+   at DCore.Infrastructure.Logging.Sinks.DCoreMsSqlAuditSink..ctor(IOptions`1 sinkOptions, IOptions`1 dbOptions, IFormatProvider formatProvider, ITextFormatter logEventFormatter) in /builds/LTdpxZDs/0/etl2/dcore/src/DCore.Infrastructure/Logging/Sinks/DCoreMsSqlAuditSink.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Serilog.Extensions.Hosting.InjectedLoggerSettings.Configure(LoggerConfiguration loggerConfiguration)
+   at Serilog.Configuration.LoggerSettingsConfiguration.Settings(ILoggerSettings settings)
+   at Serilog.LoggerSettingsConfigurationExtensions.Services(LoggerSettingsConfiguration loggerSettingsConfiguration, IServiceProvider services)
+   at Mdt.WebApi.Program.<>c.<Main>b__2_1(HostBuilderContext hostingContext, IServiceProvider services, LoggerConfiguration loggerConfiguration) in /builds/3/mdt/api/_core/Mdt.WebApi/Program.cs:line 49
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_2.<UseSerilog>b__4(LoggerConfiguration cfg)
+   at Serilog.Extensions.Hosting.ReloadableLogger.Reload(Func`2 configure)
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_1.<UseSerilog>b__1(IServiceProvider services)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Serilog.SerilogHostBuilderExtensions.<>c__DisplayClass3_1.<UseSerilog>b__3(IServiceProvider services)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.HostBuilder.<>c__DisplayClass36_0.<PopulateServiceCollection>b__2(IServiceProvider _)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Mdt.WebApi.Program.Main(String[] args) in /builds/3/mdt/api/_core/Mdt.WebApi/Program.cs:line 60
+ClientConnectionId:343bf769-95d2-4d58-aa31-d80e0cfcc9a1
+Error Number:4060,State:1,Class:11

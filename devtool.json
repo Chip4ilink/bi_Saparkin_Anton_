@@ -1,0 +1,155 @@
+{
+  "mdt": {
+    "instanceName": "MDT",
+    "deployType": "iis"
+  },
+
+    "overwrite": {
+    // Переопределение значений data-слоя при деплое
+    "data": {
+      // Добавляем конфигурацию для ресурсов, с которыми будет работать DCore
+      "dwh-core.base": {
+        "env.DataSource": {
+          // Для mdt-ресурса задаем базу данных, с которой этот ресурс будет связан
+          "MDT": {
+            "FlagDynamicMetadata": true,
+            "Params": {
+              // Название такое же, что и для слоя db. Слой db описывает в блоке ниже
+              "DatabaseName": "MDT_BI"
+            }
+          },
+          // Для DWH-ресурса задаем базу данных, с которой этот ресурс будет связан
+          "DWH": {
+            "FlagDynamicMetadata": true,
+            "Params": {
+              // Название такое же, что и для слоя dwh
+              "DatabaseName": "DWH_BI"
+            }
+          }
+        }
+      },
+      "sop-integration.base": {
+        "env.DataSource": {
+          // Для SellOutTenant-ресурса задаем параметры, с которыми этот ресурс будет работать
+          "SellOutTenant": {
+            "Params": {
+              "Url": "https://app.sellout.plus/demo/api",
+              "Token": "[encrypted]nF4MR95g6roxMorYjCvStqi5z8qPDm7aw1+YM1cYckfkRPdQ+bbhtGcsmwVVS/AT",
+              // Ограничиваем период, за который будут выгружаться факты из SellOutTenant. Справочники будут выгружаться за весь период
+              "StartPartDate": "2024-02-01",
+              "EndPartDate": "2024-02-09"
+            }
+          },
+          // Для DWH-SA-ресурса задаем базу данных, с которой этот ресурс будет связан
+          "DWH_SA": {
+            "FlagDynamicMetadata": true,
+            "Params": {
+              // Название такое же, что и для слоя dwh_sa
+              "DatabaseName": "DWH_SA"
+            }
+          }
+        }
+      },
+      // Задаем параметры для Tabular-ресурса
+      "tabular-model.composite-no-part": {
+        "env.DataSource": {
+          "CompositeTabular": {
+            "FlagDynamicMetadata": true,
+            "Params": {
+              "Server": "localhost",
+              "DatabaseName": "BI_BI_Saparkin",
+              "DatabaseProcessName": "BI_BI_Saparkin_process",
+              "DatabaseOldName": "BI_BI_Saparkin_old",
+              "BackupPath": "D:\\ics\\bi_Saparkin_Anton\\bckp"
+            }
+          }
+        }
+      }
+    }
+  }
+  ,
+  // Конфигурация слоев
+  "layers": {
+    "api": {
+      // URL-адрес MDT API
+      // Используется для установки data-слоя. Также по этому адресу будет обращаться MDT UI
+      "url": "http://localhost/modules/bi/demo/api",//"http://localhost:9003",
+      "iis": {
+        // Путь, в котором будет расположен API
+        "path": "C:/inetpub/modules/BI/DEMO/api",//"supernout"//"<API PATH>",
+        // Наименование application pool'а
+        "appPool": "testAppPool"//"<API APP POOL>",
+      }
+    },
+    "ui": {
+      // тема по умолчанию
+      "theme": "mdt.modern-blue",
+      "usingApiVersion": "v2",
+      // URL-адрес UI веб-приложения
+      // На этом адресе будет доступен UI при развертывании в IIS
+      "url": "http://localhost/modules/bi/demo",//"http://localhost:9003",
+      "iis": {
+        // Путь, в котором будет расположен UI
+        "path": "C:/inetpub/modules/BI/DEMO"//"supernout""path": "supernout"
+      }
+    },
+    // Настройки подключения к БД MDT
+    "db": {
+      // Тип БД: mssql, pgsql
+      "type": "MsSql",
+      "server": "supernout",
+      "port": 1433,
+      "database": "MDT_BI",
+      "integratedSecurity": true,
+      "variables": {
+        "DataFolder": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\DATA",
+        "variable": "value",
+        "variable2": "anotherValue"
+      },
+
+    },
+    "data": {
+      "conflictPolicy": "rewrite"
+    },
+    "dwh": {
+      // Настройки подключения к БД DWH. Формат тот же, что и в ключе `mdt:db`
+      "db": {
+        "type": "MsSql",
+        "server": "supernout",
+        "port": 1433,
+        "database": "DWH_BI",
+        "integratedSecurity": true,
+        "variables": {
+          "DataFolder": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\DATA",
+          "DWH_SA_Database": "DWH_SA",
+          "variable2": "anotherValue"
+        }
+      }
+    },
+    "dwh_sa": {
+      // Настройки подключения к БД DWH SA
+      "db": {
+        "type": "MsSql",
+        "server": "supernout",
+        "port": 1433,
+        "database": "DWH_SA",
+        "integratedSecurity": true,
+        "variables": {
+          "DataFolder": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\DATA",
+          "variable": "value",
+          "variable2": "anotherValue"
+        }
+      }
+    },
+
+    "tabularBI": {
+
+        // Строка подключения Analysis Services
+        "connectionString": "Provider=SQLOLEDB;Data Source=SUPERNOUT;Integrated Security=SSPI;Initial Catalog=BI_BI_Saparkin",
+        // Название БД Analysis Services
+        "databaseName": "BI_BI_Saparkin"
+    }
+
+  }
+
+}

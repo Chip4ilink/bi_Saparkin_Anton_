@@ -1,0 +1,24 @@
+title: bi
+code: bi
+platform: main
+layers:
+  api:
+  ui:
+  data:
+  dwh_sa:
+  db:
+    options:
+        schemas:
+            - bi
+            - md_bi
+  dwh:
+      options:
+        schemas:
+            - bi
+            - md_bi
+            - tbm_bi
+  tabularBI:
+    type: tabular
+using:
+  mod/bi-demo: main
+

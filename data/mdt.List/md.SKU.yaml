@@ -1,0 +1,31 @@
+Columns:
+  ID_mapping_DataSource$:
+    Position: 0
+  ID_CompanySource$:
+    Position: 1
+  ID_mapping_MDT$:
+    Position: 2
+  ID_SKUType$:
+    Position: 3
+  ID_status_Status$:
+    Position: 4
+  Code:
+    Position: 5
+  Name:
+    Position: 6
+  ID_Brand$:
+    Position: 7
+  UOMBase/ID_UOM$:
+    Position: 8
+  UOMBase/EAN:
+    Position: 9
+  CodeManufacturer:
+    Position: 10
+  GTIN:
+    Position: 11
+  ID:
+    Position: 12
+  SKUAdditionalInfo_o2o/ID_bi_BusinessUnit/Name:
+    Position: 13
+    Title_en: Business unit
+    Title_ru: Бизнес-юнит

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<meta name="robots" content="noindex" />
+	<meta charset="utf-8" />
+	<script src="config.js?f07ef9fd"></script>
+	<script>
+		function styleError(el, fail) {
+			if (fail || (el.sheet.cssRules && !el.sheet.cssRules.length)) {
+				_config.themes[_config.theme] && !_config.$themeRetry
+					? (el.href = _config.themes[_config.theme])
+					: alert("Invalid styles. Please contact system administrator.");
+				_config.$themeRetry = true;
+			}
+		}
+		const appName = _config.appName || "MDT";
+
+		globalThis.THEME = (function (theme) {
+			let storageThemeKey = appName + ":theme";
+
+			let onThemeChangedCallback = () => undefined;
+			let linkInited = false;
+			/** @param themePath {string} */
+			function loadCss(themePath) {
+				if (linkInited) {
+					try {
+						/** @type {HTMLLinkElement} */
+						const link = document.querySelector("link#style");
+
+						if (link) {
+							link.setAttribute("href", themePath);
+						}
+					} catch (e) {
+						console.error(e);
+					}
+					return;
+				}
+
+				document.write(
+					'<link id="style" rel="stylesheet" type="text/css" href="' +
+						themePath +
+						'" ' +
+						'onerror="styleError(this, true)" media="all">'
+				);
+				linkInited = true;
+			}
+
+			return {
+				loadCss: (originalName = undefined) => {
+					if (["mdt.sirius", "mdt.modern-dark"].includes(originalName)) currentTheme = "mdt.modern-blue";
+					else currentTheme = originalName;
+					let themePath = _config.themes[currentTheme];
+
+					/**
+					 * Подключает тему из _config.theme, когда выбранной темы нет в _config.themes
+					 *
+					 * Выбранной темы может не быть, когда интегратор отключил тему, но пользователь выбрал ее ранее
+					 */
+					if (!themePath) {
+						localStorage.removeItem(storageThemeKey);
+						themePath = _config.themes[_config.theme];
+					}
+
+					loadCss(themePath);
+					onThemeChangedCallback();
+				},
+				storageThemeKey: storageThemeKey,
+				get: () => localStorage.getItem(storageThemeKey) || _config.theme,
+				onThemeChanged: (callback) => (onThemeChangedCallback = callback)
+			};
+		})();
+
+		let currentTheme = globalThis.THEME.get();
+		globalThis.THEME.loadCss(currentTheme);
+
+		document.write('<link rel="icon" href="' + _config.faviconUrl + '">');
+	</script>
+</head>
+<body><script type="text/javascript" src="libs.js?9f575a18"></script><script type="text/javascript" src="vendor.js?fb99eede"></script><script type="text/javascript" src="all.js?a4aedd34"></script></body>

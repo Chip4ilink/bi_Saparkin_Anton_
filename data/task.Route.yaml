@@ -1,0 +1,4 @@
+Import BI tables from MDT to DWH:
+  Tasks:
+    Import bi.BusinessUnit from MDT to DWH: 
+    Import md_bi.SKUAdditionalInfo from MDT to DWH: 

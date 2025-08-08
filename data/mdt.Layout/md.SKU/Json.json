@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "cols": [
+        {
+          "width": 12,
+          "type": "field",
+          "options": {
+            "field": "Name"
+          }
+        },
+        {
+          "width": 6,
+          "type": "field",
+          "options": {
+            "field": "Code"
+          }
+        },
+        {
+          "width": 3,
+          "type": "field",
+          "options": {
+            "field": "CodeManufacturer"
+          }
+        },
+        {
+          "width": 3,
+          "type": "field",
+          "options": {
+            "field": "ID_SKUType"
+          }
+        },
+        {
+          "width": 12,
+          "options": {
+            "control": "form",
+            "field": "UOMBase"
+          },
+          "type": "field"
+        },
+        {
+          "options": {
+            "control": "form",
+            "labelMode": null,
+            "field": "SKUAdditionalInfo_o2o",
+            "title": "Доп. информация"
+          },
+          "type": "field"
+        }
+      ]
+    }
+  ]
+}

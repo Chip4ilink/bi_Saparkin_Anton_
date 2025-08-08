@@ -1,0 +1,62 @@
+audit_Enabled: True
+Fields:
+  Code:
+    Readonly: True
+  CodeManufacturer:
+    Readonly: True
+    Title_en: Manufacturer code
+    Title_ru: Код производителя
+  FlagActive:
+    Readonly: True
+  FlagExclude:
+    Readonly: True
+  GTIN:
+    Readonly: True
+  ID:
+    Primary: True
+    Readonly: True
+  ID_Brand:
+    Readonly: True
+  ID_CompanySource:
+    Readonly: True
+  ID_mapping_DataSource:
+    Readonly: True
+  ID_mapping_MDT:
+    Readonly: True
+  ID_SKUType:
+    Readonly: True
+  ID_status_Status:
+    Readonly: True
+  MDT_DateCreate:
+    Readonly: True
+  MDT_ID_PrincipalCreatedBy:
+    Readonly: True
+  Name:
+    Readonly: True
+  RowVersion:
+    Readonly: True
+  ShelfLife:
+    Readonly: True
+    Title_en: Shelf life
+    Title_ru: Срок годности
+  UID_DS:
+    Readonly: True
+  SKUAdditionalInfo_o2o:
+    ID_ObjectFieldKind: o2o
+    ID_RefObject: md_bi.SKUAdditionalInfo
+    ID_RefObjectField: ID
+    SortOrder: 1
+    Title_en: Additional Information
+    Title_ru: Доп. информация
+  UOMBase:
+    ID_ObjectFieldKind: o2o
+    ID_RefObject: uom.SKU_UOMBase
+    ID_RefObjectField: ID_md_SKU
+    Nullable: True
+    SortOrder: 1
+FlagConfiguration: False
+ID_ScriptingExportMode: filePerRecord
+Title_en: SKU
+Title_ru: SKU
+TitlePlural_en: SKUs
+TitlePlural_ru: SKU

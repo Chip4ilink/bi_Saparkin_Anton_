@@ -1,0 +1,9 @@
+builder: 4.4.3
+version: 'mdt main'
+theme: mdt.light-blue
+themes:
+  - mdt.pink
+  - mdt.dark-blue
+  - mdt.light-blue
+  - mdt.coffee
+  - mdt.modern-blue

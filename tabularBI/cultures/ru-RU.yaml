@@ -1,0 +1,8 @@
+cultures:
+  ru-RU:
+    model:
+      tables:
+        Product:
+          columns:
+            Business unit:
+              caption: Бизнес-юнит
